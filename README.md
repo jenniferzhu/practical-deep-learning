@@ -26,6 +26,8 @@
 	* Add policies directly -> 'AdministratorAccess'
 	* next
 	* Copy / paste Access key ID & Secret access key somewhere safe (credentials.txt)
+	* Create an EC2 key pair if not yet (<http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair>); store my-key-pair.pem in `~/.ssh/`
+	* `chmod 400 my-key-pair.pem` if you will use an SSH client on a Mac or Linux (step 9)
 	
 6. **Configure AWS**
 	* `aws configure`
@@ -42,7 +44,7 @@
 	
 8. **Run setup**
 	* `./setup_p2.sh`
-	* Copy output in credentials
+	* Copy output in credentials (note: not necessary with the new `setup_p2.sh`?)
 	* Copy connection command
 	
 9. **Connect to server**
