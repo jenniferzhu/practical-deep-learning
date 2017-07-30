@@ -70,7 +70,7 @@
 	* check imports `import theano` & `import keras`
 	
 14. **Shortcuts**
-	* Download aliases 
+	* Download aliases (to the cluster?)
 	`wget https://raw.githubusercontent.com/fastai/courses/master/setup/aws-alias.sh`
 	* `source aws-alias.sh`
 
@@ -79,7 +79,7 @@
 	
 	*Perhaps rename it to something sensible, like **fastai-courses**?*
 	
-	* SSH to machine (`aws-ssh`)
+	* SSH to machine (`aws-ssh`) (This commnad does not work?)
 	* `cd ~` if you are not already there
 	* Clone your repo `git clone https://github.com/[repoUrl]`
 	* Make a link to notebooks `ln -s ~/[repoName]/deeplearning1/nbs/ nbs/deeplearning1`
